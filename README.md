@@ -6,4 +6,7 @@ This is an example Go app, featuring:
 - JSON parsing;
 - Data caching with Redis.
 
-This project also includes a multi-stage build dockerfile and kubernetes deployments and services files for running pods for Redis and for the app.
+This project also includes:
+- Multi-stage build dockerfile;
+- Distroless final image;
+- Kubernetes deployments and services files for Redis and quotes-app pods.
